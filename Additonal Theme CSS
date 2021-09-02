@@ -148,13 +148,9 @@ textarea {
     resize: none
 }
 
-body {
-    background-color: #ffff;
-}
-
 /* 背景の変更 */
 body {
-    background-color: gray;
+　background-color: red;
 }
 
 /* サイト全体のフォント指定 */
