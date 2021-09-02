@@ -1,0 +1,37 @@
+h2 {
+	color: ffff;
+	font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+h4 {
+	color: ffff;
+	font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+.whatsnew {
+	font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+.menu-item-34 {
+	font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+.menu-item-61 {
+	font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+.menu-item-62 {
+	font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+.menu-item-63 {
+	font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+.menu-item-64 {
+	font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+.menu-item-65 {
+	font-family: 'Kosugi Maru', sans-serif !important;
+}
