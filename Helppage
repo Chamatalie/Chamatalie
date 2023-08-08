@@ -1,0 +1,21 @@
+<p class=".decorated-text { display: inline-block; /* インライン要素として配置し、パディングを適用 */ background-color: 63AAD1; 長方形の背景色 color: #fff; 文字の色 padding: 10px 20px; 上下10px、左右20pxのパディングを適用"><html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>角丸長方形のテキスト装飾</title>
+    <style>
+        .decorated-text {
+            display: inline-block;
+            background-color: #3498db;  /* 背景の色 */
+            color: #fff;  /* 文字の色 */
+            padding: 1px 10px;  /* 長方形の内側の余白 */
+            border-radius: 5px;  /* 角丸の半径 */
+        }
+    </style>
+</head>
+<body>
+
+    <span class="decorated-text"></span>
+
+</body>
+</html>
