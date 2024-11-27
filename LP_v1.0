@@ -1,0 +1,309 @@
+/*全体のフォントを無理やり整えるKMANデザイン */
+body {
+    background-color: #fff !important;
+    font-family: 'Yu Gothic', '游ゴシック', 'Noto Sans JP', sans-serif !important;
+    color: #444444 !important;
+}
+
+/*性と名を分けるKMANデザイン */
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.first-name,
+.last-name {
+  width: 48%;
+}
+
+/*お問い合わせ必須項目のKMANデザイン */
+.required {
+  font-size: 0.8em;
+  padding: 5px 5px;
+  background: #f02959;
+	vertical-align: middle;
+	line-height: 1;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+.optional {
+  font-size: 0.8em;
+  padding: 5px 5px;
+  background: #777777;
+	vertical-align: middle;
+	line-height: 1;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+/* お問い合わせ全体のKMANデザイン*/
+.wpcf7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 真ん中にするやつ */
+  padding: 5px;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* 送信ボタンのKMANデザイン */
+.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
+  background-color: #63aad1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.wpcf7-form input.wpcf7-form-control.wpcf7-submit:hover {
+  background-color: #f02959;
+}
+
+/* プラポリKMANデザイン */
+.wpcf7-form p.privacy-notice {
+  font-size: 0.8em; 
+  color: #333;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0; 
+  line-height: 1.2; 
+}
+
+.wpcf7-form p.privacy-notice a {
+  color: #63aad1;
+  text-decoration: none;
+}
+
+.wpcf7-form p.privacy-notice a:hover {
+  text-decoration: underline;
+}
+
+/* 行間を狭めるやつ全部変わるから微妙 */
+.p-showcase__desc {
+  line-height: 1.8; /* Adjust this value to increase or decrease the gap */
+  margin: 0; /* Remove any margin if necessary */
+}
+
+/* Media query to reduce padding on smartphones */
+@media (max-width: 600px) {
+    .p-showcase__inner {
+        padding: 20px 0 !important;
+    }
+}
+
+/* ヘッダーのお問い合わせメニューのボタン */
+#menu-item-63 a {
+    display: inline-block;
+    padding: 10px 19px; /* パディングを小さくする */
+    border: 0px solid #fff; /* ボックスの境界線の色 */
+    border-radius: 5px; /* 角を丸くする場合 */
+    background-color: #63aad1; /* ボタンの背景色 */
+    color: #fff; /* テキストの色 */
+    text-decoration: none; /* テキストの下線を消す */
+    transition: background-color 0.3s ease, color 0.3s ease; /* ホバー時のアニメーション */
+    font-size: 14px; /* フォントサイズを小さくする */
+    line-height: .75; /* 行の高さを調整 */
+}
+
+/* ホバー時のスタイル */
+#menu-item-63 a:hover {
+    background-color: #f02959; /* ホバー時の背景色 */
+    color: #fff; /* ホバー時のテキストの色 */
+}
+
+/* ヘッダー内でのメニュー項目の位置*/
+#menu-item-63 {
+    margin: 0 5px; /* メニュー項目の左右のマージンを小さくする */
+    display: inline-block; /* メニュー項目をインラインブロックにする */
+}
+
+
+/*その他セクションの高さを調整する*/
+#cb_7.p-index-content08.p-showcase {
+    height: 200px; /* 必要に応じて高さを調整 */
+    background-size: cover; /* 背景画像をカバーさせる */
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+/* その他セクションのスマホの高さを調整するKMANデザイン */
+@media (max-width: 600px) {
+  #cb_07.p-index-content08.p-showcase {
+    height: auto;
+    padding: 110px;
+  }
+}
+
+/* Adjust padding for inner container */
+.p-index-content08__inner {
+  padding: 10px 0; /* Add padding to top and bottom */
+}
+
+/*フッターの邪魔なテーマデザインを強制的に消す*/
+.p-pagetop {
+  display: none !important;
+}
+
+.l-footer__logo.p-logo {
+  display: none;
+}
+
+/*コピーライトのフォントの色を変える*/
+footer.l-footer small {
+  color: #444444;
+}
+
+/* 見出しキャッチの文字を太くしてフォントを変える */
+.p-showcase__catch {
+    font-weight: bold;
+	font-family: 'Yu Gothic', '游ゴシック', sans-serif !important;
+}
+
+.p-index-slider__item-desc {
+    font-family: 'Yu Gothic', '游ゴシック', sans-serif !important;
+    font-weight: bold !important;
+    position: relative; /* Ensure positioning for the logo */
+}
+
+.p-index-slider__item-catch {
+    font-family: 'Yu Gothic', '游ゴシック', sans-serif !important;
+    font-weight: bold !important;
+}
+
+/* 見出ししロゴを無理やり挿入するHTTPSにするのを忘れるな、あとスマホとPCでロゴを真ん中にするやつ */
+.p-index-slider__item-desc::after {
+    content: "";
+    display: block;
+    background-image: url('https://creative-capitalism.co.jp/sustaina_cloud/wp-content/uploads/2024/06/Logo3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 125px;
+    margin: 20px auto 0 auto;
+}
+
+/* スマホのロゴの大きさを調整 */
+@media (max-width: 600px) {
+    .p-index-slider__item-desc::after {
+        width: 100% !important;
+        height: 100px !important;
+    }
+}
+
+/* タブレット版 */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .p-index-slider__item-desc::after {
+        width: 95%;
+        height: 110px;
+    }
+}
+
+/* スマホだけ①②③を左に激詰め */
+
+@media (max-width: 600px) {
+  .p-showcase__desc {
+    text-align: left !important;
+  }
+}
+
+/* ニュースの背景色とか変える */
+.p-news-ticker { background: #63AAD1; } 
+.p-news-ticker__item-date { color: #FFFFFF; }
+.p-news-ticker a { color: #FFFFFF; }
+
+/* ニュースのホバーした時の色 */
+.p-news-ticker a:hover {
+    color: #f02959; /* Change hover color to white */
+}
+
+/* 開示業務の効率化のフォント */
+#cb_1 .p-showcase__inner {
+    color: #444444;
+    font-family: 'Yu Gothic', '游ゴシック', sans-serif
+}
+
+/* 見出しチャッチのフォント */
+#cb_0 .p-showcase__inner {
+    color: #444444;
+    font-family: 'Yu Gothic', '游ゴシック', sans-serif
+}
+
+/* リサーチのフォント */
+#cb_2 .p-showcase__inner {
+    color: #444444;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* その他の4つのアイテムの説明文フォントを調整 */
+.p-index-content06__item-desc {
+  font-size: 19px !important;
+  font-family: 'Yu Gothic', '游ゴシック', sans-serif !important;
+  color: #444444 !important;
+}
+
+/* その他の4つのアイテムのタイトルフォントを調整 */
+@media (max-width: 600px) {
+  #cb_7 .p-index-content06__item-catch {
+    font-size: 20px !important; /* Adjust the font size for smartphones */
+  }
+}
+
+/* その他の4つのアイテムのスマホ画面を調整 */
+@media (max-width: 600px) {
+  .p-index-content06__item-desc {
+    font-size: 12px !important; /* Adjust the font size for smartphones */
+  }
+}
+
+/* リサーチとかの文字だけ色変えるやつ */
+.p-index-content06__item-catch {
+  font-size: 30px !important; /* Adjust the size as needed */
+  font-weight: bold !important;
+  font-family: 'Yu Gothic', '游ゴシック', sans-serif !important;
+  color: #444444 !important; /* Ensuring the color is consistent */
+}
+.highlight-word {
+  color: #63aad1 !important; /* Change #ff0000 to your desired color */
+  font-weight: bold;
+}
+
+/*お問い合わせセクションの高さを調整する*/
+#cb_11.p-index-content08.p-showcase {
+    height: 200px;
+    background-size: cover;
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*お問い合わせセクションのスマホの時のフォント*/
+@media (max-width: 600px) {
+  #cb_11 .p-showcase__catch {
+    font-size: 12px !important; /* Adjust this size as needed */
+  }
+}
+
+/* フッターの色を強制的に白にする */
+footer.l-footer {
+  background-color: #ffffff; /* Change background to white */
+  color: #444444; /* Change text color to #444444 */
+}
+
+/* Ensure links in the footer are also styled correctly */
+footer.l-footer a {
+  color: #444444; /* Change link color to #444444 */
+}
